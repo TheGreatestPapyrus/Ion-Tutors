@@ -1,0 +1,32 @@
+#titleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#links {
+    margin-left: 1%;
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+}
+.links {
+    float: left;
+    font-size: 115%;
+    color: white;
+    text-decoration: none;
+    width: auto;
+    border: solid;
+    border-color: white;
+    padding: 0.75%;
+    margin-right: 1%;
+    margin-bottom: 0.25%;
+}
+div {
+    background-color: black;
+    color: white;
+    margin: 1%;
+    padding: 0.5%;
+}
+body {
+    overflow-x: hidden;
+}

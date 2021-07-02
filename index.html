@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Ion Tutors</title>
+        <link href="/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="Header">
+            <img id="titleImage" src="/Ion_Tutors.png" alt="Site Logo"/>
+            <div id="links">
+                <a class="links"class="links" href="/">Home</a>
+                <a class="links" href="/info">Info</a>
+                <a class="links" href="/pricing">Pricing</a>
+                <a class="links" href="/curriculum">Curriculum</a>
+            </div>
+        </div>
+        <br/>
+        <div>
+            <h3 id="grade">Ion Tutors. Run by 3 students in grade (GRADE this is JS so if you have it disabled it won't work), helping teach things we've learned.</h3>
+            <script>
+                const grade = new Date().getFullYear() - 2014
+                document.getElementById('grade').innerText = document.getElementById('grade').innerText.replace("(GRADE this is JS so if you have it disabled it won't work)", (grade + ((new Date().getMonth() > 7) ? 1 : 0)))
+                if (grade > 12) {
+                    document.getElementById('grade').innerText.replace(`students in grade ${grade}`, 'people not in school')
+                }
+            </script>
+        </div>
+    </body>
+</html>
