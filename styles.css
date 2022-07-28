@@ -9,14 +9,6 @@
     margin-right: auto;
 }
 
-#links {
-    margin-left: 1%;
-    display: inline-block;
-    width: 100%;
-    background-color: transparent;
-    font-family: Raleway;
-}
-
 .links {
     float: left;
     font-size: 115%;
@@ -33,7 +25,7 @@
 div {
     background-color: black;
     color: white;
-    margin: 1%;
+    margin-bottom: 0.5%;
     padding: 0.5%;
 }
 
@@ -44,8 +36,13 @@ div {
 
 body {
     overflow-x: hidden;
+    margin: 0;
 }
 
 #bodyText a:link {
     color: rgb(0, 132, 189);
+}
+
+#Header {
+    margin-bottom: 0%;
 }
