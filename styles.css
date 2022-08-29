@@ -1,68 +1,102 @@
 body {
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
+
 #textlogo {
-    height: 40px;
-    width: 130px;
-    margin-top: 13px;
-    margin-bottom: 13px;
+  height: 40px;
+  width: 130px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
+
 #nbar ul {
-    padding-left:10px;
-    padding-top: 5px;
-    
-    display: flex;
-    justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 5px;
+
+  display: flex;
+  justify-content: space-between;
 
 }
+
 #logologo {
-    height: 125px;
-    width: 125px;
+  height: 125px;
+  width: 125px;
 }
+
 #egg {
-    padding-bottom: 1000px;
+  padding-bottom: 1000px;
 }
-#header h1 { 
-    font-size: 50px
+
+#header h1 {
+  font-size: 50px
 }
-#header h1 { 
-    font-size: 50px
+
+#header h1 {
+  font-size: 50px
 }
-#header p { 
-    font-size: 25px
+
+#header p {
+  font-size: 25px
 }
-#jumbotext{
+
+#jumbotext {
+  float: left;
+}
+
+#globe {
+  height: 30%;
+  width: 45%;
+  float: right;
+  justify-self: center;
+}
+
+#classroom {
+  height: 30%;
+  width: 45%;
+  float: left;
+  justify-self: center;
+}
+
+@media (max-width: 1000px) {
+
+  #classroom {
+    height: 60%;
+    width: 90%;
     float: left;
-}
-#globe{
-    height:400px;
-    width: 600px;
-    float:right;
     justify-self: center;
-}
-#classroom{
-    height:400px;
-    width: 600px;
-    float:left;
+  }
+
+  #globe {
+    height: 60%;
+    width: 90%;
+    float: right;
     justify-self: center;
+  }
+
 }
-#method p{
-    float:right;
-    text-align:right;
+
+#method p {
+  float: right;
+  text-align: right;
+  padding: 2%;
 }
-#method h1{
-    float:right;
-    text-align:right;
+
+#method h1 {
+  float: right;
+  text-align: right;
 }
+
 #footer {
-    justify-self:center;
+  justify-self: center;
 }
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -73,13 +107,15 @@ body {
 .carousel-item {
   height: 32rem;
 }
-.carousel-item > img {
+
+.carousel-item>img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 32rem;
 }
+
 .carousel-caption p {
   margin-bottom: 1.25rem;
   font-size: 1.25rem;
@@ -95,24 +131,30 @@ body {
     margin-top: 7rem;
   }
 }
-#janeIntro{
+
+#janeIntro {
   text-align: right;
-  float:right;
+  float: right;
 }
-#johndoe{
-  height:400px;
-  padding-bottom:20px;
+
+#johndoe {
+  height: 400px;
+  padding-bottom: 20px;
 }
+
 #janedoe {
-  height:400px;
-  padding-bottom:20px;
+  height: 400px;
+  padding-bottom: 20px;
 }
-#gLess{
-  max-width:1000px;
+
+#gLess {
+  max-width: 1000px;
 }
-#iLess{
-  max-width:1000px;
+
+#iLess {
+  max-width: 1000px;
 }
+
 #priceCont {
-  max-width:960px;
+  max-width: 960px;
 }
