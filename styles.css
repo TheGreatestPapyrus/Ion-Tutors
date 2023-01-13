@@ -35,7 +35,7 @@ body {
 
 #header h1 {
   font-size: 50px
-} 
+}
 
 #header p {
   font-size: 25px
@@ -154,4 +154,8 @@ body {
 
 #priceCont {
   max-width: 960px;
+}
+
+nametag:hover, .nametag:hover {
+  color: orangered;
 }
